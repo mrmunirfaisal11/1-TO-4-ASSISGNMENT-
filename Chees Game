@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+ <center>
+     <h1>Chees Game </h1>
+    </center>   
+
+<table align="center" widht="800" height = "800" = border="2">
+<tr>
+<td width="100" height = "100" bgcolor="white">♖</td>
+
+
+<td width="100" height = "100" bgcolor="grey">♘</td>
+<td width="100" height = "100" bgcolor="white">♗</td>
+<td width="100" height = "100" bgcolor="grey">♕</td>
+<td width="100" height = "100" bgcolor="white">♔</td>
+
+<td width="100" height = "100" bgcolor="grey">♗</td>
+<td width="100" height = "100" bgcolor="white">♘</td>
+<td width="100" height = "100" bgcolor="grey">♖</td>
+</tr>
+<tr>
+<td width="100" height = "100" bgcolor="grey">♟</td>
+<td width="100" height = "100" bgcolor="white">♟</td>
+
+<td width="100" height = "100" bgcolor="grey">♟	</td>
+<td width="100" height = "100" bgcolor="white">♟	</td>
+
+<td width="100" height = "100" bgcolor="grey">♟	</td>
+<td width="100" height = "100" bgcolor="white"></td>
+
+<td width="100" height = "100" bgcolor="grey">♟	</td>
+<td width="100" height = "100" bgcolor="white">♟	</td>
+
+<tr>
+<td width="100" height = "100" bgcolor="white"></td>
+<td width="100" height = "100" bgcolor="grey"></td>
+<td width="100" height = "100" bgcolor="white"></td>
+<td width="100" height = "100" bgcolor="grey"></td>
+<td width="100" height = "100" bgcolor="white"></td>
+<td width="100" height = "100" bgcolor="grey"></td>
+<td width="100" height = "100" bgcolor="white"></td>
+<td width="100" height = "100" bgcolor="grey"></td>
+</tr>
+
+
+<tr>
+<td width="100" height = "100" bgcolor="grey">♙</td>
+<td width="100" height = "100" bgcolor="white">♙</td>
+<td width="100" height = "100" bgcolor="grey">♙</td>
+<td width="100" height = "100" bgcolor="white">♙</td>
+
+<td width="100" height = "100" bgcolor="grey">♙</td>
+<td width="100" height = "100" bgcolor="white">♙</td>
+
+<td width="100" height = "100" bgcolor="grey">♙</td>
+<td width="100" height = "100" bgcolor="white">♙</td>
+
+
+
+<tr>
+<td width="100" height = "100" bgcolor="white">♖	</td>
+<td width="100" height = "100" bgcolor="grey">♘	</td>
+<td width="100" height = "100" bgcolor="white">♗	</td>
+<td width="100" height = "100" bgcolor="grey">♕	</td>
+<td width="100" height = "100" bgcolor="white">♙</td>
+
+<td width="100" height = "100" bgcolor="grey">♔	</td>
+<td width="100" height = "100" bgcolor="white">♗	</td>
+<td width="100" height = "100" bgcolor="grey">♘</td>
+</tr>
+</table>
+    
+</body>
+</html>
+
+
