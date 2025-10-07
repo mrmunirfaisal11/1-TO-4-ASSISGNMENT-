@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .field {
+        border: 1px solid blue;
+        height: 140px;
+        margin: 21px 0px -2px 3px;
+        padding: 20px 10px;
+    }
+    fieldset {
+    border: 1px solid #3801ff;
+}
+    .section input {
+
+        width: 80%;
+    }
+
+    .main{
+        border: 1px solid blue;
+        height: 250px;
+        margin: 14px 0 0 0;
+    }
+
+    .field1 {
+        border: 1px solid blue;
+        width: 550px;
+        padding: 10px;
+    }
+
+    .section {
+        padding: 20px 10px;
+
+
+    }
+
+    .main1{
+        margin: 15px 15px;
+        border: 1px solid blue;
+    }
+
+    .div input {
+
+        width: 80%;
+
+    }
+</style>
+
+<body>
+    <fieldset>
+  <legend>The first section</legend>
+  
+
+      <fieldset>
+
+         <legend> The First Subsection</legend>
+          <div class="div">
+              <label for="name">field 1</label>
+              <input type="text" name="field 1" id="name">
+            </div>
+            
+    </fieldset>
+
+
+      <div class="section">
+
+
+          <label for="name">field 1</label>
+          <input type="text" name="field 1" id="name">
+      </div>
+</fieldset>
+<fieldset>
+  <legend>Section II</legend>
+        <fieldset>
+
+           <legend>section II</legend> 
+            <div class="section">
+                <label for="field1">field1</label>
+                <input type=" text" name="name" id="field1">
+            </div>
+        
+    </fieldset>
+        <fieldset>
+
+           <legend>section II</legend> 
+            <div class="section">
+                <label for="field1">field1</label>
+                <input type=" text" name="name" id="field1">
+            </div>
+        
+    </fieldset>
+    </fieldset>
+  
+
+
+<hr>
+<hr>
+<br>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+  
+    <h1><center>ALL FOAMS </center></h1>
+  </HR>
+<HR>
+   <CENTER>
+<h1>Login</h1>
+   </CENTER> 
+    
+    <form>
+        <div>
+            <label for="username">Username*</label><br>
+            <input type="text" id="username" name="username" required>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="password">Password*</label><br>
+            <input type="password" id="password" name="password" required>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label>Gender*</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label>Programming Skill</label><br>
+            <input type="checkbox" id="java" name="skills" value="java">
+            <label for="java">Java</label>
+            
+            <input type="checkbox" id="cpp" name="skills" value="cpp" checked>
+            <label for="cpp">C++</label>
+            
+            <input type="checkbox" id="csharp" name="skills" value="csharp">
+            <label for="csharp">C#</label>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="fruit">Fruit</label><br>
+            <select id="fruit" name="fruit">
+                <option value="banana" selected>Banana</option>
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="grape">Grape</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="comment">Enter your comment here</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+        </div>
+        
+        <br>
+        
+        <div>
+            <button type="submit">SEND</button>
+            <button type="reset">RESET</button>
+        </div>
+    </form>
+
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+
+  <table>
+    <CENTER>
+      <HR>
+      <HR>
+      <h1>Registration Form</h1>
+    </CENTER>
+    <HR>
+      <HR>
+      </HR>
+      <p>
+        Of course, all submitted information is kept in the strictest confidence.<br>
+        You always retain control of your information with D.W. Simpson & Co.<br>
+        Our services are always at no cost to you.
+      </p>
+      
+      <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+        
+          <br>
+          
+        <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+            
+            <label for="state">State/Province:</label>
+            <input type="text" id="state" name="state">
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="zip">Zip Code:</label>
+            <input type="text" id="zip" name="zip">
+            
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country">
+          </div>
+          
+          <br>
+        
+          <div>
+            <label for="phone_home">Phone: (H)</label>
+            <input type="tel" id="phone_home" name="phone_home">
+            
+            <label for="fax">Fax:</label>
+            <input type="tel" id="fax" name="fax">
+          </div>
+        
+          <br>
+          
+          <div>
+            <label for="phone_work">Phone: (W)</label>
+            <input type="tel" id="phone_work" name="phone_work">
+            <span>(if able to speak freely)</span>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        
+        <br>
+        
+        <div>
+          <label for="company">Company Name:</label>
+          <input type="text" id="company" name="company">
+            <span>(optional)</span>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label for="region">Desired Region:</label>
+            <select id="region" name="region">
+              <option value="other">Other</option>
+              <option value="north">North</option>
+              <option value="south">South</option>
+                <option value="east">East</option>
+                <option value="west">West</option>
+              </select>
+              
+            <label for="other_region">Other:</label>
+            <input type="text" id="other_region" name="other_region">
+        </div>
+        
+        <br>
+        
+        <div>
+          <label>Professional designations earned:</label><br>
+          
+          <input type="checkbox" id="college_student" name="designations" value="college_student">
+            <label for="college_student">College Student</label>
+            
+            <input type="checkbox" id="actuarial_student" name="designations" value="actuarial_student">
+            <label for="actuarial_student">Actuarial Student</label>
+            
+            <input type="checkbox" id="acas" name="designations" value="acas">
+            <label for="acas">ACAS</label>
+            
+            <input type="checkbox" id="fcas" name="designations" value="fcas">
+            <label for="fcas">FCAS</label>
+            
+            <input type="checkbox" id="asa" name="designations" value="asa">
+            <label for="asa">ASA</label>
+            
+            <br>
+            
+            <input type="checkbox" id="fsa" name="designations" value="fsa">
+            <label for="fsa">FSA</label>
+            
+            <input type="checkbox" id="ea" name="designations" value="ea">
+            <label for="ea">EA</label>
+            
+            <input type="checkbox" id="cfa" name="designations" value="cfa">
+            <label for="cfa">CFA</label>
+            
+            <input type="checkbox" id="mba" name="designations" value="mba">
+            <label for="mba">MBA</label>
+            
+            <input type="checkbox" id="maaa" name="designations" value="maaa">
+            <label for="maaa">MAAA</label>
+            
+            <br>
+            
+            <input type="checkbox" id="fia" name="designations" value="fia">
+            <label for="fia">FIA</label>
+            
+            <input type="checkbox" id="fcia" name="designations" value="fcia">
+            <label for="fcia">FCIA</label>
+            
+            <input type="checkbox" id="fiaa" name="designations" value="fiaa">
+            <label for="fiaa">FIAA</label>
+            
+            <input type="checkbox" id="financial_engineer" name="designations" value="financial_engineer">
+            <label for="financial_engineer">Financial Engineer</label>
+            
+            <br>
+            
+            <input type="checkbox" id="ms" name="designations" value="ms">
+            <label for="ms">M.S.</label>
+            
+            <input type="checkbox" id="phd" name="designations" value="phd">
+            <label for="phd">Ph.D.</label>
+            
+            <input type="checkbox" id="data_mining" name="designations" value="data_mining">
+            <label for="data_mining">Data Mining</label>
+            
+            <input type="checkbox" id="quant" name="designations" value="quant">
+            <label for="quant">Quant</label>
+          </div>
+        
+        <br>
+        
+        <div>
+            <label for="other_designations">Other Designations:</label>
+            <input type="text" id="other_designations" name="other_designations">
+        </div>
+        
+        <br>
+        
+        <div>
+            <button type="submit">Submit Registration</button>
+            <button type="reset">Reset Form</button>
+          
+          </div>
+    </form>
+  </table>
+
+
+</body>
+
+</html>
